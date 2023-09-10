@@ -1,0 +1,113 @@
+.comments {
+  margin:50px auto 0 auto;
+  width:90%;max-width:640px;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea, input {
+  width:350px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding:0 5px;
+}
+
+textarea {height:150px;}
+
+.comment-list {
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.comment {
+  width:80%;
+  margin: 20px 40px 20px 0;
+  border: 1px solid #ccc;
+  border-radius:10px;
+  padding: 10px;
+  padding-top:30px;
+  position: relative; /* Устанавливаем позицию блока как relative */
+}
+
+.delete {
+  border:solid 1px #ddd;
+  position: absolute; /* Устанавливаем позицию элемента как absolute */
+  top: 2px; /* Положение сверху */
+  font-size:10px !important;
+  right: 2px;
+}
+
+.username {
+  position: absolute; /* Устанавливаем позицию элемента как absolute */
+  top: 0; /* Положение сверху */
+  left:0;
+  font-size:12px;
+  font-weight:bold;
+  border-right:solid 1px #000;
+  border-bottom:solid 1px #000;
+  border-radius:0 0 10px 0;
+  padding:5px;margin:-1px 0 0 -1px;
+  box-shadow: 1px 1px 1px #ddd;
+  background-color:#555;
+  color:#fff;
+}
+
+.right {
+  margin: 20px 0 20px 40px;
+background-color:#5589ef;}
+.left {background-color:#eee;color:#000;}
+
+
+/* CSS */
+.delete , .button-15 {
+  background-image: linear-gradient(#42A1EC, #0070C9);
+  border: 1px solid #0077CC;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  direction: ltr;
+  display: block;
+  font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  line-height: 1.47059;
+  min-width: 30px;
+  overflow: visible;
+  padding: 4px 15px;
+  text-align: center;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-15:disabled {
+  cursor: default;
+  opacity: .3;
+}
+
+.button-15:hover {
+  background-image: linear-gradient(#51A9EE, #147BCD);
+  border-color: #1482D0;
+  text-decoration: none;
+}
+
+.button-15:active {
+  background-image: linear-gradient(#3D94D9, #0067B9);
+  border-color: #006DBC;
+  outline: none;
+}
+
+.button-15:focus {
+  box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
+  outline: none;
+}
